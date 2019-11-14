@@ -7,7 +7,7 @@ const conditional = require("./lib/conditional")
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-    return res.send(`Welcome to the beginning of nothingness`)
+    return res.send(`Selamat datang saya ihsan dari node bootcamp 9 masih belajar`)
 })
 
 app.get("/nama", (req, res) => {
