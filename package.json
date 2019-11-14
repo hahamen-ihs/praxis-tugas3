@@ -1,0 +1,22 @@
+{
+  "name": "tugas",
+  "version": "1.0.0",
+  "description": "tugas dari praxis",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "tugas 3 dan tugas 4 days 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahamen-ihs/praxis-tugas3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahamen-ihs/praxis-tugas3/issues"
+  },
+  "homepage": "https://github.com/hahamen-ihs/praxis-tugas3#readme"
+}
