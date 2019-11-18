@@ -7,18 +7,29 @@ const conditional = require("./lib/conditional")
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-    return res.send(`Welcome to the beginning of nothingness`)
+    return res.send(`Percobaab tugas ke 2 dari hari ke 4 Ihsan`)
 })
 
-app.get("/task1", (req, res) => {
-    let nama = ["Ihsan", "Toni", "Adi", "Edi"]
-    console.log("Before ", nama)
-
-    let result = array_sort.ascending_sort(nama)
-    console.log("After ", result)
-
+/**
+ * How to using query parameter:
+ * 
+ * http://your_url:your_port/your_route?q=your_value
+ * or type in Query Params when using postman
+ * key      | value
+ * q        | your_value
+ */
+app.post("/query", (req, res) => {
+    let q = req.body.q
+    let z = req.body.z
+    
+    let result = conditional.equal(q)
     return res.send(result)
 })
+
+//let result = conditional.equal(q) satu parameter
+//di post man value nya si key nya harus antar good atau bisa diganti
+//di conditional.js di bagian input
+
 
 app.listen(3300, () => {
     console.log(`Example app listening on port 3300`)
