@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "tugas pertama"
+    "test": "tugas pertama",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,9 @@
   },
   "homepage": "https://github.com/hahamen-ihs/praxis-tugas3#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.11",
+    "nodemon": "^1.19.4"
   }
 }
