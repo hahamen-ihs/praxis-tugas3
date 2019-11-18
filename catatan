@@ -1,0 +1,19 @@
+models untuk ke database
+
+contoh :
+db perpustakaan
+
+table (5 fields) :
+- buku
+- judul
+- penulis
+- tahun_terbit
+- penerbit
+- id 
+
+schema bawaan dari nodejs
+
+gak boleh pake spasi
+pake _ atau -
+
+number, string, date
